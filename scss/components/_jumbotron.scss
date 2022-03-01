@@ -1,0 +1,12 @@
+.jumbotron {
+    $height-jumbotron: calc(100vh - 80px);
+    .video {
+        object-fit: cover;
+        width: 100%;
+        height: $height-jumbotron;
+        video {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}

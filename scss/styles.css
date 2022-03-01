@@ -1,0 +1,118 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/*
+font-family: 'Great Vibes', cursive;
+*/
+header.header {
+  background-color: #00C2CB;
+  height: 80px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+header.header nav.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  padding: 0 20px;
+}
+
+header.header nav.nav .logo {
+  height: 100%;
+  padding: 10px;
+}
+
+header.header nav.nav .logo img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header.header nav.nav ul.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 15px;
+}
+
+header.header nav.nav ul.list li {
+  color: #fff;
+  margin: 0 20px;
+  font-size: 2.3em;
+  font-family: 'Great Vibes', cursive;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  cursor: pointer;
+}
+
+.jumbotron .video {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: calc(100vh - 80px);
+}
+
+.jumbotron .video video {
+  height: 100%;
+  width: 100%;
+}
+
+main.main {
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+main.main section.section {
+  margin: 10px;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+main.main section.section h1.title {
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  font-size: 4em;
+  margin: 20px auto;
+  font-weight: 100;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+  font-size: 1.2em;
+  padding: 5px !important;
+  margin: auto 30px;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover {
+  background-color: #00C2CB;
+}
+/*# sourceMappingURL=styles.css.map */
