@@ -21,7 +21,7 @@
     <!-- styles -->
     <link rel="stylesheet" href="scss/styles.css">
 
-    <title>Beauty Touch</title>
+    <title>Beauty Touch - Estética Avanzada y Belleza</title>
 </head>
 
 <body>
@@ -31,11 +31,16 @@
             <div class="logo">
                 <img src="media/logo.png" alt="Logo">
             </div>
-            <ul class="list">
-                <li>Inicio</li>
-                <li>Servicios</li>
-                <li>Sobre Nosotros</li>
+            <ul class="list" id="menu">
+                <li><a href="/">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="/about-us.html">Sobre Nosotros</a></li>
             </ul>
+
+            <div class="menu-burger" id="menu-burger">
+                <div class="burger"></div>
+            </div>
+
         </nav>
     </header>
 
@@ -78,6 +83,29 @@
     <!-- Owl Carousel 2-2.3.4 and JQuery-->
     <script src="js/jquery.min.js"></script>
     <script src="js/owl.carousel.js"></script>
+    <script>
+        // Call Plugin Owl Carousel 2
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            autoplay: true,
+            items: 1,
+            autoplayTimeout: 3000,
+            margin: 10,
+            nav: true,
+            navText: ['Anterior', 'Siguiente'],
+            responsive: {
+                1200: {
+                    items: 4
+                },
+                768: {
+                    items: 3
+                },
+                576: {
+                    items: 2
+                }
+            }
+        });
+    </script>
 
     <!-- Script -->
     <script src="js/script.js"></script>

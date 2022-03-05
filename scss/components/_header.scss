@@ -22,15 +22,37 @@ header.header {
         ul.list {
             display: flex;
             list-style: none;
-            justify-content: flex-end;
             padding: 15px;
             li {
-                color: #fff;
-                margin: 0 20px;
-                font-size: 2.3em;
-                font-family: 'Great Vibes', cursive;
                 width: max-content;
+                margin: 0 20px;
                 cursor: pointer;
+                a {
+                    color: #fff;
+                    font-size: 2.3rem;
+                    font-family: 'Great Vibes', cursive;
+                }
+            }
+            @media (max-width: 768px) {
+                position: absolute;
+                height: calc(100vh - 80px);
+                width: 100%;
+                top: $height-menu;
+                flex-direction: column;
+                align-items: center;
+                background-color: $firts-color;
+                transition: 1s ease;
+                right: 200%;
+                justify-content: center;
+                li {
+                    margin: 20px;
+                    a {
+                        font-size: 3em;
+                    }
+                }
+                &.show {
+                    right: 0;
+                }
             }
         }
     }

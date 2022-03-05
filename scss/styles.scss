@@ -7,9 +7,13 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     width: 100%;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
 
@@ -19,6 +23,7 @@ font-family: 'Great Vibes', cursive;
 
 @import 'components/variables';
 @import 'components/header';
+@import 'components/menuburger';
 @import 'components/jumbotron';
 @import 'components/section';
 @import 'components/owlcarousel';
