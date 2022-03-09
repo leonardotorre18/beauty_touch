@@ -1,0 +1,65 @@
+    <div class="jumbotron">
+        <div class="video">
+            <video src="/media/presentation-video.mp4" loop autoplay muted></video>
+        </div>
+    </div>
+
+    <main class="main">
+
+        <section class="section">
+            <h1 class="title">Servicios</h1>
+
+            <div class="owl-carousel owl-theme">
+                <div class="service-img">
+                    <img src="/media/service-especial.jpg" alt="Service">
+                </div>
+                <div class="service-img">
+                    <img src="/media/service-estetic.jpg" alt="Service">
+                </div>
+                <div class="service-img">
+                    <img src="/media/service-fashion.jpg" alt="Service">
+                </div>
+                <div class="service-img">
+                    <img src="/media/service-forma.jpg" alt="Service">
+                </div>
+                <div class="service-img">
+                    <img src="/media/service-makeup.jpg" alt="Service">
+                </div>
+                <div class="service-img">
+                    <img src="/media/service-micro.jpg" alt="Service">
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Owl Carousel 2-2.3.4 and JQuery-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script>
+        // Call Plugin Owl Carousel 2
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            autoplay: true,
+            items: 1,
+            autoplayTimeout: 3000,
+            margin: 10,
+            nav: true,
+            navText: ['Anterior', 'Siguiente'],
+            responsive: {
+                1200: {
+                    items: 4
+                },
+                768: {
+                    items: 3
+                },
+                576: {
+                    items: 2
+                }
+            }
+        });
+    </script>
+
+
+

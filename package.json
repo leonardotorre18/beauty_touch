@@ -1,0 +1,19 @@
+{
+    "name": "beauty-touch",
+    "version": "1.0.0",
+    "description": "Project creaded from Client Shirley",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon src/index.js"
+    },
+    "author": "Leonardo Torrealba",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.3",
+        "express-handlebars": "^6.0.3"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}

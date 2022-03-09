@@ -7,6 +7,7 @@
   font-family: sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  color: #000000;
 }
 
 a {
@@ -181,6 +182,48 @@ main.main section.section h1.title {
   font-size: 3.2rem;
   margin: 20px auto;
   font-weight: 100;
+  color: #000000;
+}
+
+.card-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.card-container .card {
+  width: 50%;
+  -webkit-box-shadow: 10px 10px 20px -12px #bebebe;
+  box-shadow: 10px 10px 20px -12px #bebebe;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+.card-container .card:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .card-container .card {
+    width: 100%;
+  }
+}
+
+.card-container .card h1.title {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
 }
 
 .owl-carousel .owl-nav button.owl-prev,

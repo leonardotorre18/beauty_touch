@@ -1,1 +1,3 @@
-media/
+src/public/media/
+node_modules/
+package-lock.json

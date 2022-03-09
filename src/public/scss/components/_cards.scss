@@ -1,0 +1,23 @@
+.card-container {
+    width: 100%;
+    display: flex;
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+    .card {
+        width: 50%;
+        -webkit-box-shadow: 10px 10px 20px -12px $second-color;
+        -moz-box-shadow: 10px 10px 20px -12px $second-color;
+        box-shadow: 10px 10px 20px -12px $second-color;
+        transition: all .3s ease-in;
+        &:hover {
+            box-shadow: none;
+        }
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+        h1.title {
+            width: max-content;
+        }
+    }
+}

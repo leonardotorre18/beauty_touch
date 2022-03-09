@@ -5,6 +5,7 @@
     margin: 0;
     font-family: sans-serif;
     box-sizing: border-box;
+    color: #000000;
 }
 
 a {
@@ -26,4 +27,5 @@ font-family: 'Great Vibes', cursive;
 @import 'components/menuburger';
 @import 'components/jumbotron';
 @import 'components/section';
+@import 'components/cards';
 @import 'components/owlcarousel';
