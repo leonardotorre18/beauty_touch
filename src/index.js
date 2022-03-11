@@ -1,15 +1,16 @@
 const express = require('express');
-const path = require('path');
-const routes = require('./routes/index')
-const hbs = require('express-handlebars');
-const config = require('./server/config')
+const routes = require('./routes/index');
+const config = require('./server/config');
 
 const app = express();
+const port = process.env.port || 3000;
 
+// Config
 config(app)
 
+// Routes
 routes(app)
 
-app.listen(3000, () => {
-    'Server run in port 3000'
+app.listen(port, () => {
+    console.log(`Server running in port ${port}`)
 })
