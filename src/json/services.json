@@ -1,0 +1,18 @@
+[
+    [{
+            "id": 1,
+            "title": "Express Beauty",
+            "body": "Doble higiene que limpia e hidrata tu piel en una misma acción."
+        },
+        {
+            "id": 2,
+            "title": "Full Beauty",
+            "body": "Doble limpieza que nutre e hidrata tu piel a un nivel más profundo. Con la opción de extración de puntos negros, gracias a la acción del peeling y la punta de diamante."
+        },
+        {
+            "id": 3,
+            "title": "Beauty Complex",
+            "body": "Va más allá de una limpieza profunda, porque puede elegir añadir a tu piel un baño de hidratación, vitaminas, oxígeno o nutrientes necesarios para darle vida a tu piel."
+        }
+    ]
+]

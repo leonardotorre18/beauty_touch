@@ -5,6 +5,8 @@ const config = require('./server/config');
 const app = express();
 const port = process.env.port || 3000;
 
+app.use(express.json());
+
 // Config
 config(app)
 
