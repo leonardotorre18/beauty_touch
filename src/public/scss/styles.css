@@ -177,7 +177,7 @@ main.main section.section {
 }
 
 main.main section.section h2.title {
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
   text-align: center;
   font-size: 2.9rem;
   margin: 10px auto;
@@ -185,8 +185,26 @@ main.main section.section h2.title {
   color: #000000;
 }
 
+main.main section.section p.param {
+  font-family: "Red Hat Display", sans-serif;
+  padding: 20px;
+  font-size: 1.1em;
+}
+
+main.main section.section ul.list {
+  padding: 20px;
+  list-style-image: url("/media/item-list.png");
+  padding-left: 3.7em;
+}
+
+main.main section.section ul.list li {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.1em;
+  padding: 10px;
+}
+
 main.main h1.title {
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
   text-align: center;
   font-size: 3.2rem;
   margin: 20px auto;
@@ -194,28 +212,44 @@ main.main h1.title {
   color: #000000;
 }
 
-.section {
-  min-height: 100px;
-}
-
 .card-container {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-auto-rows: 200px;
+  grid-gap: 10px;
+  padding: 10px;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 1200px) {
+  .card-container {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
   .card-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-container {
+    grid-auto-rows: 300px;
   }
 }
 
 .card-container .card {
-  width: 50%;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
   -webkit-box-shadow: 10px 10px 20px -12px #bebebe;
   box-shadow: 10px 10px 20px -12px #bebebe;
   -webkit-transition: all .3s ease-in;
@@ -227,16 +261,16 @@ main.main h1.title {
           box-shadow: none;
 }
 
-@media (max-width: 768px) {
-  .card-container .card {
-    width: 100%;
-  }
+.card-container .card h3.name {
+  font-family: "Great Vibes", cursive;
+  font-size: 2rem;
+  font-weight: 100;
 }
 
-.card-container .card h1.title {
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
+.card-container .card p.text {
+  padding: 10px;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1em;
 }
 
 .owl-carousel .owl-nav button.owl-prev,

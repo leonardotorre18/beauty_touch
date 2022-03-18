@@ -2,40 +2,40 @@
         "id": 1,
         "title": "Express Beauty",
         "body": [{
-                "name": "param",
+                "param": "param",
                 "content": "Es una DOBLE HIGIENE FACIAL porque  limpia e hidrata en una misma acción, gracias al EFECTO BLOOM que es la transformación de un bálsamo glico-oleoso en una rica leche, que al entrar en contacto con el agua y tu piel, mientras recibes un relajante masaje facial y aromas purificantes."
 
             }, {
-                "name": "title",
+                "title": "title",
                 "content": "FASE 1: Acción Superficial"
             },
             {
-                "name": "list",
+                "list": "list",
                 "content": [
                     "Leche en espuma Nutritiva: limpia en profundidad tu piel, sin resecarla. Por su contenido, PROTEGE LA FLORA CUTÁNEA Y LOS LÍPIDOS DE FUNCIÓN BARRERA.",
                     "Spray Hidratante de Doble Acción: Protege la flora y contrarresta los efectos de la polución en la piel, a la vez que, HIDRATA, REMINERALIZA Y DETOXIFICA tu piel.</li>"
                 ]
             }, {
-                "name": "title",
+                "title": "title",
                 "content": "FASE 2: Acción Profunda"
             },
             {
-                "name": "list",
+                "list": "list",
                 "content": [
                     "Leche en espuma Nutritiva: limpia en profundidad tu piel, sin resecarla. Por su contenido, PROTEGE LA FLORA CUTÁNEA Y LOS LÍPIDOS DE FUNCIÓN BARRERA.",
                     "Spray Hidratante de Doble Acción: Protege la flora y contrarresta los efectos de la polución en la piel, a la vez que, HIDRATA, REMINERALIZA Y DETOXIFICA tu piel."
                 ]
             }, {
-                "name": "title",
+                "title": "title",
                 "content": "FASE 3: Final"
             },
             {
-                "name": "list",
+                "list": "list",
                 "content": [
                     "Crema que se adapta a las necesidades y exigencias de tu piel."
                 ]
             }, {
-                "name": "param",
+                "param": "param",
                 "content": "30 minutos"
             }
         ]
@@ -44,49 +44,49 @@
         "id": 2,
         "title": "Full Beauty",
         "body": [{
-            "name": "param",
+            "param": "param",
             "content": "Es una DOBLE HIGIENE PROFUNDA, además de experimentar el EFECTO BLOOM que es la transformación de un bálsamo glico-oleoso en una rica leche, al entrar en contacto con el agua y tu piel, mientras recibes un relajante masaje facial y aromas purificantes tendrás una fase profunda con peeling adaptado a las necesidades de tu piel."
         }, {
-            "name": "title",
+            "title": "title",
             "content": "FASE 1: Acción Superficial"
 
         }, {
-            "name": "list",
+            "list": "list",
             "content": [
                 "Bálsamo miscelar en Aceite que elimina la polución sin agredir la piel, a la vez que ya va aportando hidratación, gracias a su fórmula ultra humectante."
             ]
         }, {
-            "name": "title",
+            "title": "title",
             "content": "FASE 2: Acción Profunda"
 
         }, {
-            "name": "list",
+            "list": "list",
             "content": [
                 "Leche en espuma Nutritiva: limpia en profundidad tu piel, sin resecarla. Por su contenido, PROTEGE LA FLORA CUTÁNEA Y LOS LÍPIDOS DE FUNCIÓN BARRERA.",
                 "Spray Hidratante de Doble Acción: Protege la flora y Contrarresta los efectos de la polución en la piel, a la vez que, HIDRATA, RE MINERALIZACIÓN Y DETOXIFICA tu piel."
             ]
         }, {
-            "name": "title",
+            "title": "title",
             "content": "FASE 3: Acción Renovadora - Peeling"
 
         }, {
-            "name": "list",
+            "list": "list",
             "content": [
                 "Peeling (según las necesidades de la piel)",
                 "Extracción manual / punta de diamante",
                 "Mascarilla calmante"
             ]
         }, {
-            "name": "title",
+            "title": "title",
             "content": "FASE 4: Final"
 
         }, {
-            "name": "list",
+            "list": "list",
             "content": [
                 "Crema hidratante"
             ]
         }, {
-            "name": "param",
+            "param": "param",
             "content": "45 - 60 minutos"
         }]
     },
@@ -94,42 +94,42 @@
         "id": 3,
         "title": "Beauty Complex",
         "body": [{
-            "name": "param",
+            "param": "param",
             "content": "Es la DOBLE HIGIENE COMPLETA porque además de tener una limpieza profunda, tu piel recibirá un baño de vitaminas hidratantes en una se sesión de doble mascarilla facial."
         }, {
-            "name": "title",
+            "title": "title",
             "content": "FASE 1: Acción Superficial"
         }, {
-            "name": "list",
+            "list": "list",
             "content": [
                 "Bálsamo miscelar en Aceite que elimina la polución sin agredir la piel, a la vez que va aportando hidratación, gracias a su fórmula ultra humectante."
             ]
 
         }, {
-            "name": "title",
+            "title": "title",
             "content": "FASE 2: Acción Profunda"
         }, {
-            "name": "list",
+            "list": "list",
             "content": [
                 "Leche en espuma Nutritiva: limpia en profundidad tu piel, sin resecarla. Por su contenido, PROTEGE LA FLORA CUTÁNEA Y LOS LÍPIDOS DE FUNCIÓN BARRERA.",
                 "Spray Hidratante de Doble Acción: Protege la flora y Contrarresta los efectos de la polución en la piel, a la vez que, HIDRATA, REMINERALIZA Y DETOXIFICA tu piel."
             ]
         }, {
-            "name": "title",
+            "title": "title",
             "content": "FASE 3: Acción Renovadora"
         }, {
-            "name": "list",
+            "list": "list",
             "content": [
                 "Peeling enzimático<"
             ]
         }, {
-            "name": "title",
+            "title": "title",
             "content": "FASE COMPLEX:"
         }, {
-            "name": "param",
+            "param": "param",
             "content": "Esta fase depende de las necesidades de tu piel. Puede ser:"
         }, {
-            "name": "list",
+            "list": "list",
             "content": [
                 "Complex Hidratante",
                 "Complex Iluminador",
@@ -137,15 +137,15 @@
                 "Complex Oxigenante"
             ]
         }, {
-            "name": "title",
+            "title": "title",
             "content": "FASE 4: Final"
         }, {
-            "name": "list",
+            "list": "list",
             "content": [
                 "Masaje Facial reafirmante y relajante"
             ]
         }, {
-            "name": "param",
+            "param": "param",
             "content": "60 - 75 minutos"
         }]
 

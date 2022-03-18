@@ -18,8 +18,8 @@ controller.servicesInfo = (req, res) => {
     fs.readFile(path.join(__dirname, '../json/services.info.json'), 'utf8', (e, data) => {
         data = JSON.parse(data);
         for (const key of data) {
-            if (key.id = req.params.id) {
-                res.render('servicesInfo', { data: key })
+            if (key.id == req.params.id) {
+                res.render('servicesInfo', { data: key });
                 break
             }
         }
