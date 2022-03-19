@@ -12,6 +12,11 @@ a {
     text-decoration: none;
 }
 
+button {
+    outline: none;
+    border: none;
+}
+
 body {
     width: 100%;
     overflow-x: hidden;
@@ -28,5 +33,4 @@ font-family: 'Great Vibes', cursive;
 @import 'components/jumbotron';
 @import 'components/section';
 @import 'components/services';
-// @import 'components/cards';
 @import 'components/owlcarousel';

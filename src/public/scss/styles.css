@@ -14,6 +14,11 @@ a {
   text-decoration: none;
 }
 
+button {
+  outline: none;
+  border: none;
+}
+
 body {
   width: 100%;
   overflow-x: hidden;
@@ -203,6 +208,36 @@ main.main section.section ul.list li {
   padding: 10px;
 }
 
+main.main section.section .back-services {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+main.main section.section .back-services button {
+  color: #fff;
+  background-color: #00C2CB;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.4em;
+  padding: 7px;
+  -webkit-box-shadow: 10px 10px 20px -12px #bebebe;
+  box-shadow: 10px 10px 20px -12px #bebebe;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+main.main section.section .back-services button:hover {
+  color: #00C2CB;
+  background-color: #fff;
+  -webkit-box-shadow: inset 10px 10px 20px -12px #bebebe;
+  box-shadow: inset 10px 10px 20px -12px #bebebe;
+}
+
 main.main h1.title {
   font-family: "Great Vibes", cursive;
   text-align: center;
@@ -222,14 +257,14 @@ main.main h1.title {
   grid-auto-rows: 200px;
   grid-gap: 10px;
   padding: 10px;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
 }
 
 @media (max-width: 1200px) {
   .card-container {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
   }
 }
 

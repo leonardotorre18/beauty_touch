@@ -1,3 +1,4 @@
+@import './mixis';
 main.main {
     max-width: $max-width;
     margin: 0 auto;
@@ -26,6 +27,15 @@ main.main {
                 font-family: $second-font;
                 font-size: 1.1em;
                 padding: 10px;
+            }
+        }
+        .back-services {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 30px;
+            button {
+                @include button;
             }
         }
     }
