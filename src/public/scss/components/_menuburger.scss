@@ -9,7 +9,7 @@
     .burger {
         width: 60px;
         height: 5px;
-        background-color: #fff;
+        background-color: $white-color;
         margin: 10px 0;
     }
     &::after,
@@ -17,6 +17,6 @@
         content: "";
         width: 60px;
         height: 5px;
-        background-color: #fff;
+        background-color: $white-color;
     }
 }

@@ -1,4 +1,12 @@
 @charset "UTF-8";
+/*
+X-Small	None	<576px
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px
+Extra large	xl	≥1200px
+Extra extra large	xxl	≥1400px
+*/
 *,
 *::after,
 *::before {
@@ -8,6 +16,23 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #000000;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 17px;
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 16px;
+  }
 }
 
 a {
@@ -22,19 +47,9 @@ button {
 body {
   width: 100%;
   overflow-x: hidden;
+  background-color: #fff;
 }
 
-/*
-font-family: 'Great Vibes', cursive;
-*/
-/*
-X-Small	None	<576px
-Small	sm	≥576px
-Medium	md	≥768px
-Large	lg	≥992px
-Extra large	xl	≥1200px
-Extra extra large	xxl	≥1400px
-*/
 header.header {
   background-color: #00C2CB;
   height: 80px;
@@ -83,13 +98,12 @@ header.header nav.nav ul.list li {
   width: -moz-max-content;
   width: max-content;
   margin: 0 20px;
-  cursor: pointer;
 }
 
 header.header nav.nav ul.list li a {
   color: #fff;
   font-size: 2.3rem;
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes";
 }
 
 @media (max-width: 768px) {
@@ -106,12 +120,13 @@ header.header nav.nav ul.list li a {
         -ms-flex-align: center;
             align-items: center;
     background-color: #00C2CB;
-    -webkit-transition: 1s ease;
-    transition: 1s ease;
-    right: 200%;
+    -webkit-transition: 1.3s ease;
+    transition: 1.3s ease;
+    right: 150%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    opacity: 0;
   }
   header.header nav.nav ul.list li {
     margin: 20px;
@@ -121,6 +136,7 @@ header.header nav.nav ul.list li a {
   }
   header.header nav.nav ul.list.show {
     right: 0;
+    opacity: 1;
   }
 }
 
@@ -173,6 +189,7 @@ header.header nav.nav ul.list li a {
 main.main {
   max-width: 1800px;
   margin: 0 auto;
+  margin-bottom: 2.8rem;
 }
 
 main.main section.section {
@@ -182,16 +199,16 @@ main.main section.section {
 }
 
 main.main section.section h2.title {
-  font-family: "Great Vibes", cursive;
+  font-family: "Great Vibes";
   text-align: center;
-  font-size: 2.9rem;
+  font-size: 2.9em;
   margin: 10px auto;
   font-weight: 100;
   color: #000000;
 }
 
 main.main section.section p.param {
-  font-family: "Red Hat Display", sans-serif;
+  font-family: "Red Hat Display";
   padding: 20px;
   font-size: 1.1em;
 }
@@ -203,12 +220,12 @@ main.main section.section ul.list {
 }
 
 main.main section.section ul.list li {
-  font-family: "Red Hat Display", sans-serif;
+  font-family: "Red Hat Display";
   font-size: 1.1em;
   padding: 10px;
 }
 
-main.main section.section .back-services {
+main.main section.section .button-container {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -217,29 +234,31 @@ main.main section.section .back-services {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-bottom: 30px;
+  margin-top: 20px;
 }
 
-main.main section.section .back-services button {
+main.main section.section .button-container button {
   color: #fff;
   background-color: #00C2CB;
-  font-family: "Red Hat Display", sans-serif;
+  font-family: "Red Hat Display" !important;
   font-size: 1.4em;
-  padding: 7px;
+  padding: 7px !important;
   -webkit-box-shadow: 10px 10px 20px -12px #bebebe;
   box-shadow: 10px 10px 20px -12px #bebebe;
   -webkit-transition: all .3s ease-in;
   transition: all .3s ease-in;
 }
 
-main.main section.section .back-services button:hover {
+main.main section.section .button-container button:hover {
   color: #00C2CB;
   background-color: #fff;
   -webkit-box-shadow: inset 10px 10px 20px -12px #bebebe;
   box-shadow: inset 10px 10px 20px -12px #bebebe;
+  cursor: pointer;
 }
 
 main.main h1.title {
-  font-family: "Great Vibes", cursive;
+  font-family: "Great Vibes";
   text-align: center;
   font-size: 3.2rem;
   margin: 20px auto;
@@ -254,7 +273,7 @@ main.main h1.title {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  grid-auto-rows: 200px;
+  grid-auto-rows: 14rem;
   grid-gap: 10px;
   padding: 10px;
   -ms-grid-columns: 1fr 1fr 1fr;
@@ -278,6 +297,7 @@ main.main h1.title {
 @media (max-width: 576px) {
   .card-container {
     grid-auto-rows: 300px;
+    grid-auto-rows: 20rem;
   }
 }
 
@@ -285,10 +305,12 @@ main.main h1.title {
   width: 100%;
   height: 100%;
   padding: 10px;
+  padding: 1em;
   -webkit-box-shadow: 10px 10px 20px -12px #bebebe;
   box-shadow: 10px 10px 20px -12px #bebebe;
   -webkit-transition: all .3s ease-in;
   transition: all .3s ease-in;
+  overflow: hidden;
 }
 
 .card-container .card:hover {
@@ -297,26 +319,118 @@ main.main h1.title {
 }
 
 .card-container .card h3.name {
-  font-family: "Great Vibes", cursive;
+  font-family: "Great Vibes";
   font-size: 2rem;
   font-weight: 100;
 }
 
 .card-container .card p.text {
   padding: 10px;
-  font-family: "Red Hat Display", sans-serif;
+  font-family: "Red Hat Display";
   font-size: 1em;
 }
 
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel .owl-nav button.owl-next {
-  font-size: 1.2em;
-  padding: 5px !important;
   margin: auto 30px;
+  color: #fff;
+  background-color: #00C2CB;
+  font-family: "Red Hat Display" !important;
+  font-size: 1.4em;
+  padding: 7px !important;
+  -webkit-box-shadow: 10px 10px 20px -12px #bebebe;
+  box-shadow: 10px 10px 20px -12px #bebebe;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
 }
 
 .owl-carousel .owl-nav button.owl-prev:hover,
 .owl-carousel .owl-nav button.owl-next:hover {
+  color: #00C2CB;
+  background-color: #fff;
+  -webkit-box-shadow: inset 10px 10px 20px -12px #bebebe;
+  box-shadow: inset 10px 10px 20px -12px #bebebe;
+  cursor: pointer;
+}
+
+footer.footer {
+  background-color: #bebebe;
+  width: 100%;
+  padding: 20px;
+}
+
+footer.footer p {
+  padding-left: 10px;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+footer.footer .icon-container {
+  padding: 30px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer.footer .icon-container .icon {
+  margin: 0 20px;
+  height: 4em;
+  border-radius: 50%;
+  opacity: .6;
+  -webkit-transition: .4s ease-in;
+  transition: .4s ease-in;
+}
+
+footer.footer .icon-container .icon:hover {
+  opacity: 1;
+}
+
+@media (max-width: 576px) {
+  footer.footer .icon-container .icon {
+    height: 2em;
+  }
+}
+
+footer.footer .icon-container .icon img {
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.error-page {
+  min-height: 80vh;
+  padding: 3em;
+}
+
+.error-page h2.title {
+  font-family: "Great Vibes";
+  font-size: 5em;
+  font-weight: 200;
+}
+
+.error-page p.param {
+  font-family: "Red Hat Display";
+  font-size: 1.4em;
+}
+
+.error-page button {
+  color: #fff;
   background-color: #00C2CB;
+  font-family: "Red Hat Display" !important;
+  font-size: 1.4em;
+  padding: 7px !important;
+  -webkit-box-shadow: 10px 10px 20px -12px #bebebe;
+  box-shadow: 10px 10px 20px -12px #bebebe;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  margin-top: 3em;
+}
+
+.error-page button:hover {
+  color: #00C2CB;
+  background-color: #fff;
+  -webkit-box-shadow: inset 10px 10px 20px -12px #bebebe;
+  box-shadow: inset 10px 10px 20px -12px #bebebe;
+  cursor: pointer;
 }
 /*# sourceMappingURL=styles.css.map */

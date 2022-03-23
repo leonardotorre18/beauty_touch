@@ -26,11 +26,10 @@ header.header {
             li {
                 width: max-content;
                 margin: 0 20px;
-                cursor: pointer;
                 a {
                     color: #fff;
                     font-size: 2.3rem;
-                    font-family: 'Great Vibes', cursive;
+                    font-family: $firts-font;
                 }
             }
             @media (max-width: 768px) {
@@ -41,9 +40,10 @@ header.header {
                 flex-direction: column;
                 align-items: center;
                 background-color: $firts-color;
-                transition: 1s ease;
-                right: 200%;
+                transition: 1.3s ease;
+                right: 150%;
                 justify-content: center;
+                opacity: 0;
                 li {
                     margin: 20px;
                     a {
@@ -52,6 +52,7 @@ header.header {
                 }
                 &.show {
                     right: 0;
+                    opacity: 1;
                 }
             }
         }

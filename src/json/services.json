@@ -1,26 +1,81 @@
-[
-
-    {
-        "title": "Especial Beauty",
-        "items": [{
-                "id": 1,
-                "name": "Express Beauty",
-                "body": "Doble higiene que limpia e hidrata tu piel en una misma acción."
-            },
-            {
-                "id": 2,
-                "name": "Full Beauty",
-                "body": "Doble limpieza que nutre e hidrata tu piel a un nivel más profundo. Con la opción de extración de puntos negros, gracias a la acción del peeling y la punta de diamante."
-            },
-            {
-                "id": 3,
-                "name": "Beauty Complex",
-                "body": "Va más allá de una limpieza profunda, porque puede elegir añadir a tu piel un baño de hidratación, vitaminas, oxígeno o nutrientes necesarios para darle vida a tu piel."
-            }
-        ]
+[{
+    "title": "Estética Básica",
+    "items": [{
+        "id": 0,
+        "name": "Limpieza de Cutis - Beauty Complex",
+        "body": "Va más allá de una limpieza profunda, porque puede elegir añadir a tu piel un baño de hidratación, vitaminas, oxígeno o nutrientes necesarios para darle vida a tu piel."
     }, {
-        "title": "Estetic Beauty",
-        "items": []
-    }
+        "id": 1,
+        "name": "Limpieza Facial - Full Beauty",
+        "body": "Doble limpieza que nutre e hidrata tu piel a un nivel más profundo. Con la opción de extración de puntos negros, gracias a la acción del peeling y la punta de diamante."
+    }, {
+        "id": 2,
+        "name": "Limpieza Facial - Express Beauty",
+        "body": "Doble higiene que limpia e hidrata tu piel en una misma acción."
+    }]
+}, {
+    "title": "Estética Avanzada",
+    "items": [{
+        "id": 3,
+        "name": "Velo de Colágeno/Vitaminas",
+        "body": "Tratamiento para todo tipo de pieles ya que aporta colágeno o vitaminas que son indispensables para la piel y evitar su envejecimiento."
+    }, {
+        "id": 4,
+        "name": "Piel Seborreica - Tratamiento Especial",
+        "body": "A base de distintos principios activos que trabajan desde el interior de la piel y mejora el problema que provoca el exceso de grasa."
+    }, {
+        "id": 5,
+        "name": "Tratamiento Antioxidante e Iluminador",
+        "body": "Este programa es muy aconsejable para preparar la piel ante los cambios drásticos de estaciones del año, que causan a nuestra piel mucho daño."
+    }]
+}, {
+    "title": "Cejas (Micro, pelo a pelo)",
+    "items": [{
+        "id": 6,
+        "name": "Pelo a Pelo",
+        "body": ""
+    }]
+}, {
+    "title": "Especial Bodas",
+    "items": [{
+        "id": 7,
+        "name": "Tratamiento Especial Pre-boda",
+        "body": ""
+    }, {
+        "id": 8,
+        "name": "Maquillaje y Tratamientos Pre-bodas",
+        "body": ""
 
-]
+    }]
+
+}, {
+    "title": "Maquillaje Integral",
+    "items": [{
+        "id": 9,
+        "name": "Tratamiento Especial Pre-Maquillaje",
+        "body": "Antes de cualquier maquillaje siempre es necesario preparar la piel para conseguir mejores resultados."
+    }, {
+        "id": 10,
+        "name": "Belly Painting",
+        "body": ""
+    }, {
+        "id": 11,
+        "name": "Maquillaje: Fiesta, Madrina, Invitada, etc",
+        "body": ""
+    }]
+}, {
+    "title": "Masajes Estéticos",
+    "items": [{
+        "id": 12,
+        "name": "Reflexología Podal",
+        "body": ""
+    }, {
+        "id": 13,
+        "name": "Piedras de Jade - Masaje Facial",
+        "body": "Masaje totalmente placentero y beneficioso para mejorar y calmar el estado de tu piel."
+    }, {
+        "id": 14,
+        "name": "Maderoterapia Facial",
+        "body": "Técnica milenaria con múltiples beneficios,  se conoce por este nombre porque sus utensilios para llevarla a cabo son de madera."
+    }]
+}]

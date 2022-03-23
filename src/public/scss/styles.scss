@@ -1,3 +1,4 @@
+@import 'components/variables';
 *,
 *::after,
 *::before {
@@ -5,7 +6,18 @@
     margin: 0;
     font-family: sans-serif;
     box-sizing: border-box;
-    color: #000000;
+    color: $black-color;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 17px;
+    @media (max-width: 992px) {
+        font-size: 15px;
+    }
+    @media (max-width: 576px) {
+        font-size: 16px;
+    }
 }
 
 a {
@@ -20,17 +32,14 @@ button {
 body {
     width: 100%;
     overflow-x: hidden;
+    background-color: $white-color;
 }
 
-
-/*
-font-family: 'Great Vibes', cursive;
-*/
-
-@import 'components/variables';
 @import 'components/header';
 @import 'components/menuburger';
 @import 'components/jumbotron';
 @import 'components/section';
 @import 'components/services';
 @import 'components/owlcarousel';
+@import 'components/footer';
+@import 'components/error';
