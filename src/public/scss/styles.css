@@ -257,6 +257,50 @@ main.main section.section .button-container button:hover {
   cursor: pointer;
 }
 
+main.main section.section .items-container {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 10px;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 576px) {
+  main.main section.section .items-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+main.main section.section .items-container a {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  padding: 1em;
+  -webkit-box-shadow: 10px 10px 20px -12px #bebebe;
+  box-shadow: 10px 10px 20px -12px #bebebe;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  overflow: hidden;
+}
+
+main.main section.section .items-container a:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+main.main section.section .items-container a h3.name {
+  font-family: "Great Vibes";
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+main.main section.section .items-container a p.text {
+  padding: 10px;
+  font-family: "Red Hat Display";
+  font-size: 1em;
+}
+
 main.main h1.title {
   font-family: "Great Vibes";
   text-align: center;

@@ -2,14 +2,15 @@ const express = require('express');
 const path = require('path')
 
 const mainController = require('../controllers/main');
+const servicesController = require('../controllers/services');
 
 const router = app => {
 
     app.get('/', mainController.home);
 
-    app.get('/services', mainController.services);
+    app.get('/services', servicesController.services);
 
-    app.get('/services/:id', mainController.servicesInfo)
+    app.get('/services/:id', servicesController.servicesInfo);
 
     app.get('/about', mainController.about);
 
