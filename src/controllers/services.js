@@ -23,7 +23,7 @@ controller.servicesInfo = (req, res) => {
                 for (const key of data) {
                     if (key.id == id) {
                         res.render('servicesInfo', { data: key });
-                        break
+                        break;
                     }
                 }
             }

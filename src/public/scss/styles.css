@@ -50,6 +50,10 @@ body {
   background-color: #fff;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 header.header {
   background-color: #00C2CB;
   height: 80px;
@@ -110,6 +114,7 @@ header.header nav.nav ul.list li a {
   header.header nav.nav ul.list {
     position: absolute;
     height: calc(100vh - 80px);
+    overflow-y: scroll;
     width: 100%;
     top: 80px;
     -webkit-box-orient: vertical;
@@ -131,6 +136,15 @@ header.header nav.nav ul.list li a {
   header.header nav.nav ul.list li {
     margin: 20px;
   }
+}
+
+@media (max-width: 768px) and (max-height: 576px) {
+  header.header nav.nav ul.list li {
+    margin: 5px;
+  }
+}
+
+@media (max-width: 768px) {
   header.header nav.nav ul.list li a {
     font-size: 3em;
   }
@@ -192,6 +206,20 @@ main.main {
   margin-bottom: 2.8rem;
 }
 
+main.main h1,
+main.main h2,
+main.main h3 {
+  font-family: "Great Vibes";
+  text-align: center;
+  font-weight: 100;
+  color: #000000;
+}
+
+main.main h1.title {
+  margin: 20px auto;
+  font-size: 3.2rem;
+}
+
 main.main section.section {
   margin: 10px;
   margin-top: 50px;
@@ -199,12 +227,13 @@ main.main section.section {
 }
 
 main.main section.section h2.title {
-  font-family: "Great Vibes";
-  text-align: center;
   font-size: 2.9em;
   margin: 10px auto;
-  font-weight: 100;
-  color: #000000;
+}
+
+main.main section.section h3.title {
+  font-size: 2.1em;
+  margin: 10px auto;
 }
 
 main.main section.section p.param {
@@ -258,6 +287,7 @@ main.main section.section .button-container button:hover {
 }
 
 main.main section.section .items-container {
+  min-height: 58vh;
   display: -ms-grid;
   display: grid;
   grid-gap: 10px;
@@ -282,6 +312,20 @@ main.main section.section .items-container a {
   -webkit-transition: all .3s ease-in;
   transition: all .3s ease-in;
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 300px;
 }
 
 main.main section.section .items-container a:hover {
@@ -299,15 +343,6 @@ main.main section.section .items-container a p.text {
   padding: 10px;
   font-family: "Red Hat Display";
   font-size: 1em;
-}
-
-main.main h1.title {
-  font-family: "Great Vibes";
-  text-align: center;
-  font-size: 3.2rem;
-  margin: 20px auto;
-  font-weight: 100;
-  color: #000000;
 }
 
 .card-container {
@@ -355,6 +390,19 @@ main.main h1.title {
   -webkit-transition: all .3s ease-in;
   transition: all .3s ease-in;
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .card-container .card:hover {
@@ -377,6 +425,7 @@ main.main h1.title {
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel .owl-nav button.owl-next {
   margin: auto 30px;
+  margin-bottom: 1.2em;
   color: #fff;
   background-color: #00C2CB;
   font-family: "Red Hat Display" !important;
@@ -476,5 +525,108 @@ footer.footer .icon-container .icon img {
   -webkit-box-shadow: inset 10px 10px 20px -12px #bebebe;
   box-shadow: inset 10px 10px 20px -12px #bebebe;
   cursor: pointer;
+}
+
+.section .owl-carousel .img,
+.about .owl-carousel .img {
+  padding: 1em;
+  height: 600px;
+}
+
+@media (max-width: 576px) {
+  .section .owl-carousel .img,
+  .about .owl-carousel .img {
+    height: 460px;
+  }
+}
+
+.section .owl-carousel .img img,
+.about .owl-carousel .img img {
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.section .container {
+  width: 100%;
+  margin: 1em auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+@media (max-width: 576px) {
+  .section .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.section .container .description {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 576px) {
+  .section .container .description {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .section .container .description {
+    width: 63%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .section .container .description {
+    width: 75%;
+  }
+}
+
+.section .container .img {
+  width: 50%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 576px) {
+  .section .container .img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .section .container .img {
+    width: 37%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .section .container .img {
+    width: 25%;
+  }
+}
+
+.section .container .img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=styles.css.map */

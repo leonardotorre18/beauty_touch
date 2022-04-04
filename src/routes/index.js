@@ -19,7 +19,6 @@ const router = app => {
     app.get('/about/central', mainController.central);
 
 
-
     app.use(express.static(path.join('src', 'public')));
 
     app.get('*', mainController.error404);

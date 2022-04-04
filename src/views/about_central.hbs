@@ -1,9 +1,48 @@
 <main class="main">
-    <h1 class="title">Nuestro centro estético</h1>
 
-    <img src="/media/about-center01.jpg" alt="">
-    <img src="/media/about-center02.jpg" alt="">
-    <img src="/media/about-center03.jpg" alt="">
-    <img src="/media/about-center04.jpg" alt="">
+    <section class="section about">
+
+        <h2 class="title">Nuestro centro estético</h2>
+        <p class="param">Es un Centro de Belleza Integral, porque abarca todo lo que tiene que ver con la imagen personal. Por eso cuenta con servicios profesionales como:</p>
+        
+        <div class="owl-carousel owl-theme">
+            <div class="img">
+                <img src="/media/about-center01.jpg" alt="Service">
+            </div>
+            <div class="img">
+                <img src="/media/about-center02.jpg" alt="Service">
+            </div>
+            <div class="img">
+                <img src="/media/about-center03.jpg" alt="Service">
+            </div>
+            <div class="img">
+                <img src="/media/about-center04.jpg" alt="Service">
+            </div>
+        </div>
+
+    </section>
 
 </main>
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/owl.carousel.js"></script>
+<script>
+    // Call Plugin Owl Carousel 2
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        autoplay: true,
+        items: 1,
+        autoplayTimeout: 3000,
+        margin: 10,
+        nav: true,
+        navText: ['Anterior', 'Siguiente'],
+        responsive: {
+            768: {
+                items: 2
+            },
+            1200: {
+                items: 3
+            }
+        }
+    });
+</script>

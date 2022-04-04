@@ -35,6 +35,10 @@ body {
     background-color: $white-color;
 }
 
+body::-webkit-scrollbar {
+    display: none
+}
+
 @import 'components/header';
 @import 'components/menuburger';
 @import 'components/jumbotron';
@@ -43,3 +47,4 @@ body {
 @import 'components/owlcarousel';
 @import 'components/footer';
 @import 'components/error';
+@import 'components/about';

@@ -35,6 +35,7 @@ header.header {
             @media (max-width: 768px) {
                 position: absolute;
                 height: calc(100vh - 80px);
+                overflow-y: scroll;
                 width: 100%;
                 top: $height-menu;
                 flex-direction: column;
@@ -46,6 +47,9 @@ header.header {
                 opacity: 0;
                 li {
                     margin: 20px;
+                    @media (max-height: 576px) {
+                        margin: 5px;
+                    }
                     a {
                         font-size: 3em;
                     }

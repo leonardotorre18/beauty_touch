@@ -4,6 +4,7 @@
         button.owl-prev,
         button.owl-next {
             margin: auto 30px;
+            margin-bottom: 1.2em;
             @include button
         }
     }
