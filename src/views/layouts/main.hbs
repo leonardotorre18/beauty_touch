@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta name="description" content="Todos los servicios de belleza y atención estética que tenemos para ofrecerte. Elige cómo podemos consentirte y nos encargaremos del restoh">
+    <meta name="description" content="Todos los servicios de belleza y atención estética que tenemos para ofrecerte. Elige cómo podemos consentirte y nos encargaremos del resto">
     <meta name="author" content="Leonardo Torrealba">
     <meta name="copyright" content="Beauty Touch">
 
@@ -45,11 +45,20 @@
         </nav>
     </header>
 
-    {{{ body }}}
+    {{#if jumbotron}}
+        <div class="jumbotron">
+            <div class="video">
+                <video src="/media/presentation-video.mp4" loop autoplay muted></video>
+            </div>
+        </div>
+    {{/if}}
 
-    <footer class="footer">
-        <p>Redes Sociales:</p>
-        <div class="icon-container">
+    <main class="main">
+
+        {{{ body }}}
+        
+    </main>
+    <div id="socialBar">
         <a href="https://www.facebook.com/groups/567059580856960/" class="icon">
             <img src="/media/IconFacebook.png" alt="Icon Facebook">
         </a>
@@ -59,15 +68,41 @@
         <a href="https://www.youtube.com/channel/UC9TirbK3ezdDmE_CquW5WEQ" class="icon">
             <img src="/media/IconYoutube.png" alt="Icon Youtube">
         </a>
-        <a href="" class="icon">
+        <a href="https://api.whatsapp.com/send?phone=+34620392467&text=Hola%20Beauty%20Touch.%20Estuve%20en%20su%20sitio%20web%20y%20quise%20contactar%20con%20ustedes%20%C2%BFPueden%20darme%20m%C3%A1s%20informaci%C3%B3n?" class="icon">
             <img src="/media/IconWhatsapp.png" alt="Icon WhatsApp">
         </a>
-
-        </div>
-    </footer>
+    </div>
     
     <!-- JQuery -->
     <script src="/js/jquery.min.js"></script>
+
+    {{#if owlcarousel}}
+    <!-- Owl Carousel 2-2.3.4 and JQuery-->
+    <script src="/js/owl.carousel.js"></script>
+    <script>
+    // Call Plugin Owl Carousel 2
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        autoplay: true,
+        items: 1,
+        autoplayTimeout: 3000,
+        margin: 10,
+        nav: true,
+        navText: ['Anterior', 'Siguiente'],
+        responsive: {
+            1200: {
+                items: 4
+            },
+            768: {
+                items: 3
+            },
+            576: {
+                items: 2
+            }
+        }
+    });
+    </script>
+    {{/if}}
 
     <!-- Script -->
     <script src="/js/script.js"></script>

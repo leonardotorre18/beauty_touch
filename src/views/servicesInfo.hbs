@@ -1,32 +1,34 @@
-<main class="main">
-    <h1 class="title">{{data.title}}</h1>
+<h1 class="title">{{data.title}}</h1>
     
-    <section class="section">
-    {{#each data.body}}
-        {{#if title}}
-        <h2 class="title">{{content}}</h2>
+<section class="section">
+{{#each data.body}}
+    {{#if title}}
+    <h2 class="title">{{content}}</h2>
         
-        {{else if param}}
-        <p class="param">{{content}}</p>
+    {{else if param}}
+    <p class="param">{{content}}</p>
         
-        {{else if list}}
-        <ul class="list">
+    {{else if list}}
+    <ul class="list">
 
-            {{#each content}}
-            <li>{{this}}</li>
-            {{/each}}
+        {{#each content}}
+        <li>{{this}}</li>
+        {{/each}}
 
-        </ul>
+    </ul>
         
-        {{/if}}
-    {{/each}}
-        <div class="button-container">
-            <a target="_blank" href="https://api.whatsapp.com/send?phone=+34620392467&text=Hola">
-                <button>Reservar por WhatsApp</button>
-            </a>
-            <a href="/services/">
-                <button>Volver a Servicios</button>
-            </a>
-        </div>
-    </section>
-</main>
+    {{/if}}
+{{/each}}
+    <div class="button-container">
+        <button onclick="generateMessage('{{data.title}}')">Reservar por WhatsApp</button>
+        <a href="/services/">
+            <button>Volver a Servicios</button>
+        </a>
+    </div>
+</section>
+<script>
+    function generateMessage(name){
+        let message = `Hola Beauty Touch. Entré a su sitio web y quise reservar el servicio de ${name}. ¿Pueden darme más información?`
+        window.open("https://api.whatsapp.com/send?phone=+34620392467&text=" + message);
+    }
+</script>

@@ -6,7 +6,7 @@
     margin: 0;
     font-family: sans-serif;
     box-sizing: border-box;
-    color: $black-color;
+    color: $black-color; 
 }
 
 html {
@@ -14,23 +14,23 @@ html {
     font-size: 17px;
     @media (max-width: 992px) {
         font-size: 15px;
-    }
-    @media (max-width: 576px) {
+    } 
+    @media (max-width: 576px)   {
         font-size: 16px;
     }
-}
-
+} 
+ 
 a {
-    text-decoration: none;
+    text-decoration:  none; 
 }
 
 button {
     outline: none;
     border: none;
 }
-
-body {
-    width: 100%;
+ 
+body { 
+    width: 100%; 
     overflow-x: hidden;
     background-color: $white-color;
 }
@@ -45,6 +45,7 @@ body::-webkit-scrollbar {
 @import 'components/section';
 @import 'components/services';
 @import 'components/owlcarousel';
-@import 'components/footer';
+@import 'components/socialBar';
+// @import 'components/footer';
 @import 'components/error';
 @import 'components/about';

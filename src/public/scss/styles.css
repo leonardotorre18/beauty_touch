@@ -203,6 +203,7 @@ header.header nav.nav ul.list li a {
 main.main {
   max-width: 1800px;
   margin: 0 auto;
+  padding: 0 20px;
   margin-bottom: 2.8rem;
 }
 
@@ -446,48 +447,43 @@ main.main section.section .items-container a p.text {
   cursor: pointer;
 }
 
-footer.footer {
-  background-color: #bebebe;
+#socialBar {
+  width: 4rem;
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+#socialBar .icon {
   width: 100%;
-  padding: 20px;
-}
-
-footer.footer p {
-  padding-left: 10px;
-  font-size: 1.2em;
-  color: #fff;
-}
-
-footer.footer .icon-container {
-  padding: 30px 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-footer.footer .icon-container .icon {
-  margin: 0 20px;
-  height: 4em;
-  border-radius: 50%;
-  opacity: .6;
-  -webkit-transition: .4s ease-in;
-  transition: .4s ease-in;
-}
-
-footer.footer .icon-container .icon:hover {
-  opacity: 1;
-}
-
-@media (max-width: 576px) {
-  footer.footer .icon-container .icon {
-    height: 2em;
-  }
-}
-
-footer.footer .icon-container .icon img {
   height: 100%;
+  display: block;
+}
+
+#socialBar .icon img {
+  width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+#socialBar .icon:nth-child(1) {
+  background-color: #0f5da0;
+}
+
+#socialBar .icon:nth-child(2) {
+  background-color: #fe5341;
+}
+
+#socialBar .icon:nth-child(3) {
+  background-color: #eb3543;
+}
+
+#socialBar .icon:nth-child(4) {
+  background-color: #20b865;
 }
 
 .error-page {
