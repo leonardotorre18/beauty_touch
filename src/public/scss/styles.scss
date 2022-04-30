@@ -1,4 +1,4 @@
-@import 'components/variables';
+@import './components/variables';
 *,
 *::after,
 *::before {
@@ -7,7 +7,7 @@
     font-family: sans-serif;
     box-sizing: border-box;
     color: $black-color; 
-}
+}  
 
 html {
     scroll-behavior: smooth;
@@ -15,37 +15,36 @@ html {
     @media (max-width: 992px) {
         font-size: 15px;
     } 
-    @media (max-width: 576px)   {
+    @media (max-width: 576px) { 
         font-size: 16px;
     }
-} 
+}  
  
 a {
     text-decoration:  none; 
 }
-
-button {
-    outline: none;
-    border: none;
-}
- 
-body { 
+   
+button {  
+    outline: none;    
+    border: none;  
+}  
+  
+body {
     width: 100%; 
-    overflow-x: hidden;
+    // overflow-x: hidden;
     background-color: $white-color;
-}
-
-body::-webkit-scrollbar {
+}  
+ 
+*::-webkit-scrollbar {
     display: none
 }
 
-@import 'components/header';
-@import 'components/menuburger';
-@import 'components/jumbotron';
-@import 'components/section';
-@import 'components/services';
-@import 'components/owlcarousel';
-@import 'components/socialBar';
-// @import 'components/footer';
-@import 'components/error';
-@import 'components/about';
+@import './components/header';
+@import './components/menuburger';
+@import './components/jumbotron';
+@import './components/section';
+@import './components/services';
+@import './components/owlcarousel';
+@import './components/socialBar';
+@import './components/error';
+@import './components/about'; 

@@ -8,3 +8,18 @@ $(document).ready(function() {
     })
 
 });
+
+var scrollPos = 0;
+const navbar = document.getElementById('header')
+window.addEventListener('scroll', ()=>{
+  if ((document.body.getBoundingClientRect()).top > scrollPos){
+    navbar.classList.remove('hidden')
+  }
+    
+  else { 
+    if (scrollPos <= -60)
+    navbar.classList.add('hidden')
+  }
+  scrollPos = (document.body.getBoundingClientRect()).top;
+    
+});
