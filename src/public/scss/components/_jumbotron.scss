@@ -1,5 +1,6 @@
 .jumbotron {
     $height-jumbotron: calc(100vh - 80px);
+    background-color: $white-color;
     .video {
         object-fit: cover;
         width: 100%;

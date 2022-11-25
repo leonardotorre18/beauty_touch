@@ -17,45 +17,52 @@
 
 .section {
     .container {
-        width: 100%;
-        margin: 1em auto;
-        display: flex;
-        flex-wrap: nowrap;
-        @media (max-width: 576px) {
-            flex-direction: column;
-        }
-        .description {
-            width: 50%;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            @media (max-width: 576px) {
-                width: 100%;
-            }
-            @media (min-width: 992px) {
-                width: 63%;
-            }
-            @media (min-width: 1400px) {
-                width: 75%;
-            }
-        }
+        width: 100%; 
+        padding: 1em;
+ 
         .img {
-            width: 50%;
-            text-align: center;
-            display: flex;
+            width: 30%;
+            margin: 0 auto;
+            @media (max-width: 1200px) {
+                width: 40%;
+            }
+            @media (max-width: 768px) {
+                width: 60%;
+            }
             @media (max-width: 576px) {
                 width: 100%;
-            }
-            @media (min-width: 992px) {
-                width: 37%;
-            }
-            @media (min-width: 1400px) {
-                width: 25%;
             }
             img {
                 width: 100%;
                 object-fit: cover;
+                // @media (max-width: 768px) {
+                //     width: 60%;
+                // }
+
+                // height: 600px;
+                // width: 100%;
+                // text-align: center;
+                // object-fit: cover;
+                // padding: 1em;
+                // @media (min-width: 576px) {
+                //     width: 300px;
+                // }
             }
+        }
+        .description {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            // @media (max-width: 576px) {
+            //     width: 100%;
+            // }
+            // @media (min-width: 992px) {
+            //     width: 63%;
+            // }
+            // @media (min-width: 1400px) {
+            //     width: 75%;
+            // }
         }
     }
 }

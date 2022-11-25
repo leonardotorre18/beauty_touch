@@ -3,16 +3,16 @@ const routes = require('./routes/index');
 const config = require('./server/config');
 
 const app = express();
-const port = process.env.port || 3000;
+const port = process.env.port || 8000;
 
 app.use(express.json());
 
 // Config
-config(app)
+config(app);
 
 // Routes
-routes(app)
+routes(app);
 
 app.listen(port, () => {
     console.log(`Server running in port ${port}`)
-})
+});

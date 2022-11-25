@@ -1,9 +1,9 @@
 #socialBar {
-    width: 4rem;
+    width: 3.4em;
     position: fixed;
     top: 50%;
     transform: translateY(-50%);
-    border-radius:10px;
+    border-radius: 0 10px 10px 0;
     overflow: hidden;
     z-index: 10;
     .icon {

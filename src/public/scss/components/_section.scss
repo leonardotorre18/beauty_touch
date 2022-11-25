@@ -2,8 +2,6 @@
 main.main {
     max-width: $max-width;
     margin: 0 auto;
-    padding: 0 20px;
-    margin-bottom: 2.8rem;
     h1,
     h2,
     h3 {
@@ -11,26 +9,27 @@ main.main {
         text-align: center;
         font-weight: 100;
         color: $black-color;
+        padding: .5em 0;
     }
     h1.title {
-        margin: 20px auto;
-        font-size: 3.2rem;
+        padding: 0;
+        padding-top: .3em; 
+        font-size: 3.2em;  
     }
     section.section {
-        margin: 10px;
-        margin-top: 50px;
-        padding: 10px;
+        margin: 0 20px;
+        padding: 0 10px;
         h2.title {
-            font-size: 2.9em;
-            margin: 10px auto;
+            padding: 0;
+            padding-top: .3em; 
+            font-size: 3.2em; 
         }
         h3.title {
             font-size: 2.1em;
-            margin: 10px auto;
         }
         p.param {
             font-family: $second-font;
-            padding: 20px;
+            padding: .7em; 
             font-size: 1.1em;
         }
         ul.list {
