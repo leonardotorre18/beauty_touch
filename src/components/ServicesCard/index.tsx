@@ -1,4 +1,4 @@
-export default function CardComponent() {
+export default function CardComponent({data}: {data:any}) {
     return (
         <div className="w-full rounded-lg shadow-md lg:max-w-sm">
             {/* <img
@@ -8,15 +8,13 @@ export default function CardComponent() {
             /> */}
             <div className="p-4">
                 <h4 className="text-xl font-semibold tracking-tigh">
-                    React Tailwind Card with Image
+                    {data.name}
                 </h4>
                 <p className="mb-2 leading-normal">
-                    react tailwind css card with image It is a long established
-                    fact that a reader will be distracted by the readable
-                    content.
+                    {data.body}
                 </p>
                 <button className="px-4 py-2 text-sm text-blue-100 bg-MainColor rounded shadow">
-                    Read more
+                    Más información
                 </button>
             </div>
         </div>
