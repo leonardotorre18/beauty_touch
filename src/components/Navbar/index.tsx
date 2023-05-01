@@ -1,5 +1,6 @@
 import React from "react";
 import {BiMenu} from "react-icons/bi"
+import {Link} from "react-router-dom"
 
 export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -31,25 +32,19 @@ export default function Navbar() {
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
-                <a
-                  className="px-3 py-1 lg:py-2 flex items-center uppercase font-bold leading-snug text-white hover:opacity-75"
-                >
+                <Link to="/" className="px-3 py-1 lg:py-2 flex items-center uppercase font-bold leading-snug text-white hover:opacity-75">
                   Inicio
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
-                  className="px-3 py-1 lg:py-2 flex items-center uppercase font-bold leading-snug text-white hover:opacity-75"
-                >
+                <Link to="/services" className="px-3 py-1 lg:py-2 flex items-center uppercase font-bold leading-snug text-white hover:opacity-75">
                   Servicios
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
-                  className="px-3 py-1 lg:py-2 flex items-center uppercase font-bold leading-snug text-white hover:opacity-75"
-                >
+                <Link to="/" className="px-3 py-1 lg:py-2 flex items-center uppercase font-bold leading-snug text-white hover:opacity-75">
                   Sobre Nosotros
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
