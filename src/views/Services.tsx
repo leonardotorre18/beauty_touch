@@ -13,7 +13,7 @@ export default function Services() {
           <section className="m-8">
             <h3 className="mb-2 mt-0 text-xl font-medium leading-tight">{section.title}</h3>
 
-            <div className=" grid grid-cols-4">
+            <div className=" grid grid-cols-3">
             {
               section.items.map(item => <ServicesCard data={item} key={item.id} />)
             }
