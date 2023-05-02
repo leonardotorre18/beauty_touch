@@ -52,14 +52,14 @@ export default function Navbar() {
                 </div>
                 <div className={" w-auto bg-SecondColor flex flex-col p-3 absolute right-0" + (dropdownOpen ? "flex" : " hidden")} onMouseLeave={hiddeDropdown}>
                   <Link 
-                    to="/services"
+                    to="/about/personal"
                     className="px-3 py-3 lg:py-2 flex items-center uppercase font-bold leading-snug text-white hover:opacity-75"
                     onClick={() => {toggleNavbar();toggleDropdown()}}
                   >
                       Personal Capacitado
                   </Link>
                   <Link 
-                    to="/services"
+                    to="/about/central"
                     className="px-3 py-3 lg:py-2 flex items-center uppercase font-bold leading-snug text-white hover:opacity-75"
                     onClick={() => {toggleNavbar();toggleDropdown()}}
                   >
