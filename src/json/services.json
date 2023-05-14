@@ -1,81 +1,578 @@
 [{
-    "title": "Estética Básica",
-    "items": [{
-        "id": 0,
-        "name": "Limpieza de Cutis - Beauty Complex",
-        "body": "Va más allá de una limpieza profunda, porque puede elegir añadir a tu piel un baño de hidratación, vitaminas, oxígeno o nutrientes necesarios para darle vida a tu piel."
-    }, {
-        "id": 1,
-        "name": "Limpieza Facial - Full Beauty",
-        "body": "Doble limpieza que nutre e hidrata tu piel a un nivel más profundo. Con la opción de extración de puntos negros, gracias a la acción del peeling y la punta de diamante."
-    }, {
-        "id": 2,
-        "name": "Limpieza Facial - Express Beauty",
-        "body": "Doble higiene que limpia e hidrata tu piel en una misma acción."
-    }]
-}, {
-    "title": "Estética Avanzada",
-    "items": [{
-        "id": 3,
-        "name": "Velo de Colágeno/Vitaminas",
-        "body": "Tratamiento para todo tipo de pieles ya que aporta colágeno o vitaminas que son indispensables para la piel y evitar su envejecimiento."
-    }, {
-        "id": 4,
-        "name": "Piel Seborreica - Tratamiento Especial",
-        "body": "A base de distintos principios activos que trabajan desde el interior de la piel y mejora el problema que provoca el exceso de grasa."
-    }, {
-        "id": 5,
-        "name": "Tratamiento Antioxidante e Iluminador",
-        "body": "Este programa es muy aconsejable para preparar la piel ante los cambios drásticos de estaciones del año, que causan a nuestra piel mucho daño."
-    }]
-}, {
-    "title": "Cejas (Micro, pelo a pelo)",
-    "items": [{
-        "id": 6,
-        "name": "Pelo a Pelo",
-        "body": ""
-    }]
-}, {
-    "title": "Especial Bodas",
-    "items": [{
-        "id": 7,
-        "name": "Tratamiento Especial Pre-boda",
-        "body": ""
-    }, {
-        "id": 8,
-        "name": "Maquillaje y Tratamientos Pre-bodas",
-        "body": ""
-
-    }]
-
-}, {
-    "title": "Maquillaje Integral",
-    "items": [{
-        "id": 9,
-        "name": "Tratamiento Especial Pre-Maquillaje",
-        "body": "Antes de cualquier maquillaje siempre es necesario preparar la piel para conseguir mejores resultados."
-    }, {
-        "id": 10,
-        "name": "Belly Painting",
-        "body": ""
-    }, {
-        "id": 11,
-        "name": "Maquillaje: Fiesta, Madrina, Invitada, etc",
-        "body": ""
-    }]
-}, {
-    "title": "Masajes Estéticos",
-    "items": [{
-        "id": 12,
-        "name": "Reflexología Podal",
-        "body": ""
-    }, {
-        "id": 13,
-        "name": "Piedras de Jade - Masaje Facial",
-        "body": "Masaje totalmente placentero y beneficioso para mejorar y calmar el estado de tu piel."
-    }, {
-        "id": 14,
-        "name": "Maderoterapia Facial",
-        "body": "Técnica milenaria con múltiples beneficios,  se conoce por este nombre porque sus utensilios para llevarla a cabo son de madera."
-    }]
+  "_id": {
+    "$oid": "6456dc8b1c1924ab4cfc709e"
+  },
+  "title": "Limpieza de Cutis - Beauty Complex",
+  "description": "Va más allá de una limpieza profunda, porque puede elegir añadir a tu piel un baño de hidratación, vitaminas, oxígeno o nutrientes necesarios para darle vida a tu piel.",
+  "tag": "EBásica",
+  "body": [
+    {
+      "type": "param",
+      "content": "Es la DOBLE HIGIENE COMPLETA porque además de tener una limpieza profunda, tu piel recibirá un baño de vitaminas hidratantes en una se sesión de doble mascarilla facial."
+    },
+    {
+      "type": "title",
+      "content": "FASE 1: Acción Superficial"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Bálsamo miscelar en Aceite que elimina la polución sin agredir la piel, a la vez que va aportando hidratación, gracias a su fórmula ultra humectante."
+      ]
+    },
+    {
+      "type": "title",
+      "content": "FASE 2: Acción Profunda"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Leche en espuma Nutritiva: limpia en profundidad tu piel, sin resecarla. Por su contenido, PROTEGE LA FLORA CUTÁNEA Y LOS LÍPIDOS DE FUNCIÓN BARRERA.",
+        "Spray Hidratante de Doble Acción: Protege la flora y Contrarresta los efectos de la polución en la piel, a la vez que, HIDRATA, REMINERALIZA Y DETOXIFICA tu piel."
+      ]
+    },
+    {
+      "content": "FASE 3: Acción Renovadora",
+      "type": "title"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Peeling enzimático"
+      ]
+    },
+    {
+      "type": "title",
+      "content": "FASE COMPLEX:"
+    },
+    {
+      "type": "param",
+      "content": "Esta fase depende de las necesidades de tu piel. Puede ser:"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Complex Hidratante",
+        "Complex Iluminador",
+        "Complex Reparador",
+        "Complex Oxigenante"
+      ]
+    },
+    {
+      "type": "title",
+      "content": "FASE 4: Final"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Masaje Facial reafirmante y relajante"
+      ]
+    },
+    {
+      "type": "param",
+      "content": "60 - 75 minutos"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "645a3cfbfe6be252397b7371"
+  },
+  "title": "Limpieza Facial - Full Beauty",
+  "tag": "EBásica",
+  "body": [
+    {
+      "type": "param",
+      "content": "Es una DOBLE HIGIENE PROFUNDA, además de experimentar el EFECTO BLOOM que es la transformación de un bálsamo glico-oleoso en una rica leche, al entrar en contacto con el agua y tu piel, mientras recibes un relajante masaje facial y aromas purificantes tendrás una fase profunda con peeling adaptado a las necesidades de tu piel."
+    },
+    {
+      "type": "title",
+      "content": "FASE 1: Acción Superficial"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Bálsamo miscelar en Aceite que elimina la polución sin agredir la piel, a la vez que ya va aportando hidratación, gracias a su fórmula ultra humectante."
+      ]
+    },
+    {
+      "type": "title",
+      "content": "FASE 2: Acción Profunda"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Leche en espuma Nutritiva: limpia en profundidad tu piel, sin resecarla. Por su contenido, PROTEGE LA FLORA CUTÁNEA Y LOS LÍPIDOS DE FUNCIÓN BARRERA.",
+        "Spray Hidratante de Doble Acción: Protege la flora y Contrarresta los efectos de la polución en la piel, a la vez que, HIDRATA, RE MINERALIZACIÓN Y DETOXIFICA tu piel."
+      ]
+    },
+    {
+      "type": "title",
+      "content": "FASE 3: Acción Renovadora - Peeling"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Peeling (según las necesidades de la piel)",
+        "Extracción manual / punta de diamante",
+        "Mascarilla calmante"
+      ]
+    },
+    {
+      "type": "title",
+      "content": "FASE 4: Final"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Crema hidratante"
+      ]
+    },
+    {
+      "type": "param",
+      "content": "45 - 60 minutos"
+    }
+  ],
+  "description": "Doble limpieza que nutre e hidrata tu piel a un nivel más profundo. Con la opción de extración de puntos negros, gracias a la acción del peeling y la punta de diamante."
+},{
+  "_id": {
+    "$oid": "645a3f2cfe6be252397b7372"
+  },
+  "title": "Limpieza Facial - Express Beauty",
+  "description": "Doble higiene que limpia e hidrata tu piel en una misma acción.",
+  "tag": "EBásica",
+  "body": [
+    {
+      "type": "param",
+      "content": "Es una DOBLE HIGIENE FACIAL porque  limpia e hidrata en una misma acción, gracias al EFECTO BLOOM que es la transformación de un bálsamo glico-oleoso en una rica leche, que al entrar en contacto con el agua y tu piel, mientras recibes un relajante masaje facial y aromas purificantes."
+    },
+    {
+      "type": "title",
+      "content": "FASE 1: Acción Superficial"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Leche en espuma Nutritiva: limpia en profundidad tu piel, sin resecarla. Por su contenido, PROTEGE LA FLORA CUTÁNEA Y LOS LÍPIDOS DE FUNCIÓN BARRERA.\"",
+        "Spray Hidratante de Doble Acción: Protege la flora y contrarresta los efectos de la polución en la piel, a la vez que, HIDRATA, REMINERALIZA Y DETOXIFICA tu piel."
+      ]
+    },
+    {
+      "type": "title",
+      "content": "FASE 2: Acción Profunda"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Leche en espuma Nutritiva: limpia en profundidad tu piel, sin resecarla. Por su contenido, PROTEGE LA FLORA CUTÁNEA Y LOS LÍPIDOS DE FUNCIÓN BARRERA.",
+        "Spray Hidratante de Doble Acción: Protege la flora y contrarresta los efectos de la polución en la piel, a la vez que, HIDRATA, REMINERALIZA Y DETOXIFICA tu piel."
+      ]
+    },
+    {
+      "type": "title",
+      "content": "FASE 3: Final"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Crema que se adapta a las necesidades y exigencias de tu piel."
+      ]
+    },
+    {
+      "type": "param",
+      "content": "30 min"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "645a416bfe6be252397b7373"
+  },
+  "title": "Velo de Colágeno/Vitaminas",
+  "description": "Tratamiento para todo tipo de pieles ya que aporta colágeno o vitaminas que son indispensables para la piel y evitar su envejecimiento.",
+  "teg": "EAvanzada",
+  "body": [
+    {
+      "type": "param",
+      "content": "Tratamiento para todo tipo de pieles ya que aporta colágeno o vitaminas que son indispensables para la piel y evitar su envejecimiento."
+    },
+    {
+      "type": "param",
+      "content": "Incluye"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Higiene Básica",
+        "Exfoliante profundo",
+        "Mascarilla de velo",
+        "Crema final"
+      ]
+    },
+    {
+      "type": "param",
+      "content": "Duración: 60 minutos"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "645a425bfe6be252397b7374"
+  },
+  "title": "\"Piel Seborreica - Tratamiento Especial",
+  "description": "A base de distintos principios activos que trabajan desde el interior de la piel y mejora el problema que provoca el exceso de grasa.",
+  "tag": "EAvanzada",
+  "body": [
+    {
+      "type": "param",
+      "content": "A base de distintos principios activos que trabajan desde el interior de la piel y mejora el problema que provoca el exceso de grasa."
+    },
+    {
+      "type": "param",
+      "content": "Cada sesión incluye:"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Higiene profunda",
+        "Aplicación de principio activo",
+        "Martillo de frío",
+        "Mascarilla calmante",
+        "Mesoterapia",
+        "Crema final"
+      ]
+    },
+    {
+      "type": "param",
+      "content": "Duración: 60 - 75 minutos"
+    },
+    {
+      "type": "param",
+      "content": "La recomendación mínima son de 6 a 8 sesiones, con un intervalo de 15 días. Pero todo depende del estado o la gravedad del problema."
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "645a43a0fe6be252397b7375"
+  },
+  "title": "Tratamiento Antioxidante e Iluminador",
+  "description": "Este programa es muy aconsejable para preparar la piel ante los cambios drásticos de estaciones del año, que causan a nuestra piel mucho daño.",
+  "body": [
+    {
+      "type": "param",
+      "content": "Este programa es muy aconsejable para preparar la piel ante los cambios drásticos de estaciones del año, que causan a nuestra piel mucho daño"
+    },
+    {
+      "type": "title",
+      "content": "Fase 1:"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Higiene facial",
+        "Peeling enzimática"
+      ]
+    },
+    {
+      "type": "title",
+      "content": "Fase 2:"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Concentrado de Vitamina C pura para dar luz y resplandor a la piel",
+        "Concentrado de Granada que es rico en propiedades antioxidantes y antiradicales libres que complementa y potencia la acción del ácido ascórbico."
+      ]
+    },
+    {
+      "type": "title",
+      "content": "Fase 3:"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Mascarilla concentrada de Aloe Verá para un efecto calmante y refrescante a la vez que aporta una gran hidratación a la piel.",
+        "Crema final con Vitamina C y extracto de Granada para unificar el tono de la piel.",
+        "Masaje con piedras de Jade"
+      ]
+    },
+    {
+      "type": "param",
+      "content": "Duración del tratamiento: 60 minutos"
+    }
+  ],
+  "tag": "EAvanzada"
+},{
+  "_id": {
+    "$oid": "645a452bfe6be252397b7376"
+  },
+  "title": "Pelo a Pelo",
+  "tag": "Cejas",
+  "body": [
+    {
+      "type": "param",
+      "content": "Incluye:"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Diseño de Cejas",
+        "Cejas pelo a pelo",
+        "Prueba de alergias",
+        "Primera aplicación",
+        "Una sesión de retoque",
+        "Crema hidratante"
+      ]
+    },
+    {
+      "type": "param",
+      "content": "Tiempo: 2 horas aproximadamente"
+    }
+  ],
+  "description": ""
+},{
+  "_id": {
+    "$oid": "645a4612fe6be252397b7377"
+  },
+  "title": "Tratamiento Especial Pre-boda",
+  "description": "",
+  "tag": "Bodas",
+  "body": [
+    {
+      "type": "param",
+      "content": "Antes de cualquier maquillaje siempre es necesario preparar la piel para conseguir mejores resultados, pero cuando hablamos de un maquillaje para una ocasión especial como una boda, graduación, bautizo, etc.... La preparación debe ser mucho más exhaustiva."
+    },
+    {
+      "type": "param",
+      "content": "¿Por qué?... En eventos especiales como estos, es normal que lloremos, sudemos, aguantemos muchas horas, etc., etc. Sin olvidar que las luces del rededor, los flashes de las cámaras o la luz natural del día sea gris o nublada, nos pueden jugar una mal pasada sacando a relucir esas pequeñas 'imperfecciones' indeseadas."
+    },
+    {
+      "type": "param",
+      "content": "¿Cómo poder evitarlo?... ¡Preprando la piel con suficiente antelación!... Esto implica, entre otras cosas, hacer un buen diagnóstico de la piel para saber que cosas hay que corregir o tratar y lo más importante elegir un tratamiento adecuado para la ocasión. Para ello te ofrezco este servicio especial de tratamiento facial previo al maquillaje."
+    },
+    {
+      "type": "param",
+      "content": "Incluye"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Limpieza facial superficial y profunda",
+        "A base de péptidos conseguimos una piel libre de impurezas",
+        "Gracias a las células madres aportamos un aspecto más relajado de la piel por más tiempo.",
+        "Con una mascarilla de polvos de perlas y caviar logramos q la piel luzca totalmente luminosa e hidratada."
+      ]
+    },
+    {
+      "type": "param",
+      "content": "Duración del tratamiento: 75/90 minutos (dependiendo de la cantidad de zonas)"
+    },
+    {
+      "type": "param",
+      "content": "Días previos al evento: se recomienda entre 2 o 3 días antes del evento."
+    },
+    {
+      "type": "param",
+      "content": "NOTA: en caso de traslado se aplicará un plus (dependiendo de la distancia)"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "645a487efe6be252397b7378"
+  },
+  "title": "Maquillaje y Tratamientos Pre-bodas",
+  "tag": "Bodas",
+  "description": "",
+  "body": [
+    {
+      "type": "title",
+      "content": "Opciones a esconger:"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Sólo Maquillaje",
+        "Maquillaje + prueba",
+        "Maquillaje + tratamiento estético facial",
+        "Sólo tratamiento estético facial",
+        "Tratamiento corporal",
+        "Combos personalizados individuales o para pareja"
+      ]
+    },
+    {
+      "type": "param",
+      "content": "Nota: También disponemos de tratamiento personalizados y ajustados a presupuesto solicitado"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "645a4bc6fe6be252397b737a"
+  },
+  "title": "Belly Painting",
+  "description": "",
+  "tag": "Integral",
+  "body": [
+    ""
+  ]
+},{
+  "_id": {
+    "$oid": "645a4c0afe6be252397b737b"
+  },
+  "title": "Maquillaje: Fiesta, Madrina, Invitada, etc",
+  "description": "",
+  "tag": "Integral",
+  "body": [
+    {
+      "type": "param",
+      "content": "Incluye"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Higiene facial",
+        "Maquillaje",
+        "Ampolla efecto lifting/ Hidratante/ vitamina"
+      ]
+    },
+    {
+      "type": "param",
+      "content": "Extras adicionales al maquillaje:"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Tratamiento Hidrante e iluminador",
+        "Prueba previa de maquillaje",
+        "Traslado: dependiendo la distancia"
+      ]
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "645a4d30fe6be252397b737c"
+  },
+  "title": "Reflexología Podal",
+  "description": "",
+  "tag": "Masajes",
+  "body": [
+    {
+      "type": "param",
+      "content": "Durante 45 minutos de tratamiento recibirás:"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Exfoliante para activar la circulación",
+        "Masaje",
+        "Crema Hidratante"
+      ]
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "645a4ddffe6be252397b737d"
+  },
+  "description": "Masaje totalmente placentero y beneficioso para mejorar y calmar el estado de tu piel.",
+  "tag": "Masajes",
+  "title": "Piedras de Jade - Masaje Facial",
+  "body": [
+    {
+      "content": "Masaje totalmente placentero y beneficioso para mejorar y calmar el estado de tu piel",
+      "type": "param"
+    },
+    {
+      "content": "En cada sesión de 45 minutos disfrutarás de tener:",
+      "type": "param"
+    },
+    {
+      "content": [
+        "Higiene básica",
+        "Mascarilla nutritiva",
+        "Masaje con aceite, vitamina o crema hidratante (según las necesidades)"
+      ],
+      "type": "list"
+    },
+    {
+      "content": "Nota: Se aconseja hacer mínimo una sesión semanal y máximo tres.",
+      "type": "param"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "645a55abfe6be252397b737e"
+  },
+  "description": "Técnica milenaria con múltiples beneficios,  se conoce por este nombre porque sus utensilios para llevarla a cabo son de madera.",
+  "tag": "Masajes",
+  "title": "Maderoterapia Facial",
+  "body": [
+    {
+      "type": "param",
+      "content": "Técnica milenaria con múltiples beneficios,  se conoce por este nombre porque sus utensilios para llevarla a cabo son de madera."
+    },
+    {
+      "type": "param",
+      "content": "Alguno de los muchos beneficios son:"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Reafirma la piel",
+        "Tonifica los músculos faciales",
+        "Reduce la flacidez"
+      ]
+    },
+    {
+      "type": "param",
+      "content": "Durante 45 minutos tendrás incluido:"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Higiene básica",
+        "Mascarilla nutritiva",
+        "Masaje con aceite, vitamina o crema hidratante (según las necesidades)"
+      ]
+    },
+    {
+      "type": "param",
+      "content": "Nota: Frecuencia entre sesión y sesión: se recomienda dos o tres veces a la semana para mayor efectividad."
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "645a56dcfe6be252397b7380"
+  },
+  "title": "Tratamiento Especial Pre-Maquillaje",
+  "description": "Antes de cualquier maquillaje siempre es necesario preparar la piel para conseguir mejores resultados.",
+  "tag": "Integral",
+  "body": [
+    ""
+  ]
+},{
+  "_id": {
+    "$oid": "645a5b1bfe6be252397b7381"
+  },
+  "description": "Tratamiento para todo tipo de pieles ya que aporta colágeno o vitaminas que son indispensables para la piel y evitar su envejecimiento.",
+  "tag": "EAvanzada",
+  "title": "Velo de Colágeno/Vitaminas",
+  "body": [
+    {
+      "type": "param",
+      "content": "Tratamiento para todo tipo de pieles ya que aporta colágeno o vitaminas que son indispensables para la piel y evitar su envejecimiento."
+    },
+    {
+      "type": "param",
+      "content": "Incluye"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Higiene básica",
+        "Exfoliante profundo",
+        "Mascarilla de velo",
+        "Crema final"
+      ]
+    },
+    {
+      "type": "param",
+      "content": "Duración: 60 minutos"
+    }
+  ]
 }]

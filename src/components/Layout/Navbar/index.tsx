@@ -12,11 +12,11 @@ export default function Navbar() {
   const toggleNavbar = () => setNavbarOpen(!navbarOpen);
   return (
     <>
-      <nav className="sticky top-0 left-0 z-50 flex flex-wrap items-center justify-between px-2 py-3 bg-MainColor shadow">
+      <nav className="sticky top-0 left-0 z-50 flex flex-wrap items-center justify-between bg-MainColor shadow">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
-              className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+              className="font-MainFont text-3xl tracking-wider font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap text-white"
             >
               Beauty Touch
             </a>
@@ -35,32 +35,32 @@ export default function Navbar() {
               (navbarOpen ? "flex" : " hidden")
             }
           >
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+            <ul className="flex flex-col lg:flex-row list-none font-MainFont lg:ml-auto">
               <li className="nav-item" onClick={toggleNavbar}>
-                <Link to="/" className="px-3 py-3 lg:py-2 flex items-center uppercase font-bold leading-snug text-white hover:opacity-75">
+                <Link to="/" className="px-3 py-3 lg:py-2 flex text-3xl tracking-wider items-center font-bold leading-snug text-white hover:opacity-75">
                   Inicio
                 </Link>
               </li>
               <li className="nav-item" onClick={toggleNavbar}>
-                <Link to="/services" className="px-3 py-3 lg:py-2 flex items-center uppercase font-bold leading-snug text-white hover:opacity-75">
+                <Link to="/services" className="px-3 py-3 lg:py-2  text-3xl tracking-wider flex items-center font-bold leading-snug text-white hover:opacity-75">
                   Servicios
                 </Link>
               </li>
               <li className="nav-item" onClick={toggleDropdown} onMouseEnter={showDropdown}>
-                <div className="px-3 py-3 lg:py-2 flex items-center uppercase font-bold leading-snug text-white hover:opacity-75 cursor-pointer">
+                <div className="px-3 py-3 lg:py-2  text-3xl tracking-wider flex items-center font-bold leading-snug text-white hover:opacity-75 cursor-pointer">
                   Sobre Nosotros
                 </div>
                 <div className={" w-auto bg-SecondColor flex flex-col p-3 absolute right-0" + (dropdownOpen ? "flex" : " hidden")} onMouseLeave={hiddeDropdown}>
                   <Link 
                     to="/about/personal"
-                    className="px-3 py-3 lg:py-2 flex items-center uppercase font-bold leading-snug text-white hover:opacity-75"
+                    className="px-3 py-3 lg:py-2  text-3xl tracking-wider flex items-center font-bold leading-none text-white hover:opacity-75"
                     onClick={() => {toggleNavbar();toggleDropdown()}}
                   >
                       Personal Capacitado
                   </Link>
                   <Link 
                     to="/about/central"
-                    className="px-3 py-3 lg:py-2 flex items-center uppercase font-bold leading-snug text-white hover:opacity-75"
+                    className="px-3 py-3 lg:py-2  text-3xl tracking-wider flex items-center font-bold leading-none text-white hover:opacity-75"
                     onClick={() => {toggleNavbar();toggleDropdown()}}
                   >
                       Ubicación central

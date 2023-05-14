@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 
-export default function index() {
+export default function Footer() {
 
   const [dropdownOpen, setDropdownOpen] = React.useState(false);
 
@@ -20,18 +20,18 @@ export default function index() {
             </a>
                 <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-MainColor">
                   <Link to="/" className="mr-4 hover:opacity-75 md:mr-6 ">Inicio</Link>
-                  <Link to="/" className="mr-4 hover:opacity-75 md:mr-6 ">Servicios</Link>
+                  <Link to="/services" className="mr-4 hover:opacity-75 md:mr-6 ">Servicios</Link>
                   <div onMouseEnter={showDropdown} onClick={toggleDropdown} className='relative'>
                     <div className={" w-auto bg-SecondColor flex flex-col p-3 absolute bottom-6 z-10 " + (dropdownOpen ? "flex" : "hidden")} onMouseLeave={hiddeDropdown}>
                       <Link 
-                        to="/services"
+                        to="/about/personal"
                         className="px-3 py-3 lg:py-2 flex items-center uppercase font-bold leading-snug text-white hover:opacity-75"
                         onClick={toggleDropdown}
                       >
                         Personal Capacitado
                       </Link>
                       <Link 
-                        to="/services"
+                        to="/about/central"
                         className="px-3 py-3 lg:py-2 flex items-center uppercase font-bold leading-snug text-white hover:opacity-75"
                         onClick={toggleDropdown}
                       >
