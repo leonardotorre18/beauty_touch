@@ -3,7 +3,7 @@
 import { useNavigate, useParams } from 'react-router-dom'
 import data from '../json/services.json'
 import {AiOutlineCheckSquare} from 'react-icons/ai'
-import { IServices } from '../interfaces/services.interfaces';
+// import { IServices } from '../interfaces/services.interfaces';
 
 
 export default function ServicesInfo() {
@@ -13,17 +13,13 @@ export default function ServicesInfo() {
   const getBack = () => {
     navigate(-1)
   }
-  const servicesInfo: IServices | undefined = data.find(item => item._id.$oid === servicesId)
-
-  console.log(servicesInfo)
-
- 
+  const servicesInfo: any = data.find(item => item._id.$oid === servicesId)
   return (
     <div className='p-4'>
       <h1 className='font-bold text-4xl font-MainFont my-4'>{servicesInfo?.title}</h1>
 
       {
-        servicesInfo?.body.map(item =>
+        servicesInfo.body.map((item: any) =>
 
           // Render si es un título
           item.type === 'title' ? 
