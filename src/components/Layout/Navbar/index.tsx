@@ -35,32 +35,32 @@ export default function Navbar() {
               (navbarOpen ? "flex" : " hidden")
             }
           >
-            <ul className="flex flex-col lg:flex-row list-none font-MainFont lg:ml-auto">
+            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item" onClick={toggleNavbar}>
-                <Link to="/" className="px-3 py-3 lg:py-2 flex text-3xl tracking-wider items-center font-bold leading-snug text-white hover:opacity-75">
+                <Link to="/" className="px-3 py-3 lg:py-2 flex text-lg uppercase font-medium items-center text-white hover:opacity-75">
                   Inicio
                 </Link>
               </li>
               <li className="nav-item" onClick={toggleNavbar}>
-                <Link to="/services" className="px-3 py-3 lg:py-2  text-3xl tracking-wider flex items-center font-bold leading-snug text-white hover:opacity-75">
+                <Link to="/services" className="px-3 py-3 lg:py-2  text-lg uppercase font-medium flex items-center text-white hover:opacity-75">
                   Servicios
                 </Link>
               </li>
               <li className="nav-item" onClick={toggleDropdown} onMouseEnter={showDropdown}>
-                <div className="px-3 py-3 lg:py-2  text-3xl tracking-wider flex items-center font-bold leading-snug text-white hover:opacity-75 cursor-pointer">
+                <div className="px-3 py-3 lg:py-2  text-lg uppercase font-medium flex items-center text-white hover:opacity-75 cursor-pointer">
                   Sobre Nosotros
                 </div>
                 <div className={" w-auto bg-SecondColor flex flex-col p-3 absolute right-0" + (dropdownOpen ? "flex" : " hidden")} onMouseLeave={hiddeDropdown}>
                   <Link 
                     to="/about/personal"
-                    className="px-3 py-3 lg:py-2  text-3xl tracking-wider flex items-center font-bold leading-none text-white hover:opacity-75"
+                    className="px-3 py-3 lg:py-2  text-lg uppercase font-medium leading-none flex items-center text-white hover:opacity-75"
                     onClick={() => {toggleNavbar();toggleDropdown()}}
                   >
                       Personal Capacitado
                   </Link>
                   <Link 
                     to="/about/central"
-                    className="px-3 py-3 lg:py-2  text-3xl tracking-wider flex items-center font-bold leading-none text-white hover:opacity-75"
+                    className="px-3 py-3 lg:py-2  text-lg uppercase font-medium leading-none flex items-center text-white hover:opacity-75"
                     onClick={() => {toggleNavbar();toggleDropdown()}}
                   >
                       Ubicación central
