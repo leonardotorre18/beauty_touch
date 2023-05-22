@@ -1,6 +1,7 @@
 // import React from 'react'
 // import { Swiper, SwiperSlide } from 'swiper/react';
 // import { Navigation, Pagination } from 'swiper';
+import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -10,7 +11,10 @@ import "react-multi-carousel/lib/styles.css";
 // import 'swiper/css/pagination';
 // import 'swiper/css/navigation';
 
-export default function index() {
+export default function index(
+  {children}
+  : {children: React.ReactNode})
+{
 
   return (
     <Carousel responsive={{
@@ -32,13 +36,16 @@ export default function index() {
         items: 1
       }
     }}>
-      {
-        [1,2,3,4,5,6].map(id => (
-          <div key={id}>
-            <img src="https://thumbs.dreamstime.com/b/masaje-con-el-massager-65389651.jpg" alt="" />
-          </div>
-        ))
-      }
+
+    { children ?
+      children : (
+      [1,2,3,4,5,6].map(id => (
+        <div key={id}>
+          <img src="https://thumbs.dreamstime.com/b/masaje-con-el-massager-65389651.jpg" alt="" />
+        </div>
+      ))
+    )}
+
     </Carousel>
   )
   // return (

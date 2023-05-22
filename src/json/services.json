@@ -337,40 +337,15 @@
   "body": [
     {
       "type": "param",
-      "content": "Antes de cualquier maquillaje siempre es necesario preparar la piel para conseguir mejores resultados, pero cuando hablamos de un maquillaje para una ocasión especial como una boda, graduación, bautizo, etc.... La preparación debe ser mucho más exhaustiva."
+      "content": "Uno de los momentos más especiales es el día de la Boda, sus preparativos son incontables, el estrés y la tensión aumenta de forma acelerada, todo esto causa mucho estrés emocional pero también causa estrés epidérmico, por lo que es muy frecuente que las novias sufran alteraciones inesperadas en la piel, como la aparición de granitos, barros o se pierda la luminosidad en la piel."
     },
     {
       "type": "param",
-      "content": "¿Por qué?... En eventos especiales como estos, es normal que lloremos, sudemos, aguantemos muchas horas, etc., etc. Sin olvidar que las luces del rededor, los flashes de las cámaras o la luz natural del día sea gris o nublada, nos pueden jugar una mal pasada sacando a relucir esas pequeñas 'imperfecciones' indeseadas."
+      "content": "Toda novia anhela conseguir las mejores fotos, el mejor video, los mejores momentos y mucho más… ¿Cómo conseguirlo?… ¡Preparando todo con suficiente antelación!, y esto incluye nuestra piel... Lo implica, entre otras cosas, hacer un buen diagnóstico para saber qué cosas hay que corregir o tratar y lo más importante elegir un tratamiento adecuado para la ocasión."
     },
     {
       "type": "param",
-      "content": "¿Cómo poder evitarlo?... ¡Preprando la piel con suficiente antelación!... Esto implica, entre otras cosas, hacer un buen diagnóstico de la piel para saber que cosas hay que corregir o tratar y lo más importante elegir un tratamiento adecuado para la ocasión. Para ello te ofrezco este servicio especial de tratamiento facial previo al maquillaje."
-    },
-    {
-      "type": "param",
-      "content": "Incluye"
-    },
-    {
-      "type": "list",
-      "content": [
-        "Limpieza facial superficial y profunda",
-        "A base de péptidos conseguimos una piel libre de impurezas",
-        "Gracias a las células madres aportamos un aspecto más relajado de la piel por más tiempo.",
-        "Con una mascarilla de polvos de perlas y caviar logramos q la piel luzca totalmente luminosa e hidratada."
-      ]
-    },
-    {
-      "type": "param",
-      "content": "Duración del tratamiento: 75/90 minutos (dependiendo de la cantidad de zonas)"
-    },
-    {
-      "type": "param",
-      "content": "Días previos al evento: se recomienda entre 2 o 3 días antes del evento."
-    },
-    {
-      "type": "param",
-      "content": "NOTA: en caso de traslado se aplicará un plus (dependiendo de la distancia)"
+      "content": "Por eso en Beauty Touch te ayudamos a conseguir que tu piel brille toda la noche y mucho más, para ello disponemos de varios packs especiales de Boda"
     }
   ]
 },{
@@ -383,22 +358,68 @@
   "body": [
     {
       "type": "title",
-      "content": "Opciones a esconger:"
+      "content": "Opción 1: Esta sesión se recomienda 2 o 3 días antes del evento preferiblemente."
+    },
+    {
+      "type": "param",
+      "content": "Incluye:"
     },
     {
       "type": "list",
       "content": [
-        "Sólo Maquillaje",
-        "Maquillaje + prueba",
-        "Maquillaje + tratamiento estético facial",
-        "Sólo tratamiento estético facial",
-        "Tratamiento corporal",
-        "Combos personalizados individuales o para pareja"
+        "Limpieza facial profunda",
+        "Peeling químico renovador",
+        "Mascarilla concentrada peeling off",
+        "Sesión de Diatermia",
+        "Crema multivitamínica"
       ]
     },
     {
       "type": "param",
-      "content": "Nota: También disponemos de tratamiento personalizados y ajustados a presupuesto solicitado"
+      "content": "Duración del tratamiento: 60 a 75 minutos"
+    },
+    {
+      "type": "title",
+      "content": "Opción 2: Tratamiento previo al maquillaje (el día del evento)"
+    },
+    {
+      "type": "param",
+      "content": "Incluye:"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Limpieza facial hidratante",
+        "Mascarilla multivitamínica efecto lifting",
+        "Ampolla hidratante especial maquillaje"
+      ]
+    },
+    {
+      "type": "param",
+      "content": "Duración: 45 minutos"
+    },
+    {
+      "type": "param",
+      "content": "En caso de necesitar que el tratamiento se realice a domicilio se aplicará un plus dependiendo de la distancia"
+    },
+    {
+      "type": "title",
+      "content": "Maquillaje"
+    },
+    {
+      "type": "param",
+      "content": "Incluye:"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Prueba de maquillaje + Limpieza exprés",
+        "Maquillaje final + tratamiento hidratante previo (opcional)"
+      ]
+    },
+    {
+      "type": "param",
+      "content": "Packs: se puede combinar los tratamientos estéticos o incluir todos en el mismo pack + el maquillaje "
     }
   ]
 },{
@@ -409,39 +430,61 @@
   "description": "",
   "tag": "Integral",
   "body": [
-    ""
+    {
+      "type": "param",
+      "content": "Antes de nada, quiero contarles un poco sobre esta técnica y por supuesto mi experiencia con estos 'Lienzos tan especiales'. Para mí es una de las partes más lindas y tiernas del Maquillaje..."
+    },
+    {
+      "type": "param",
+      "content": "¡En los últimos años, el Belly painting ha tenido más auge gracias al boom de los famosos Baby Shower ‼️... ¡Y no es de extrañar que cada vez más mamis embarazadas quieran un “Belly painting” Es un bello recuerdo que no olvidarán jamás y que se sumará a cada ilusión que se une a la dulce espera de la llegada del bebé ‼️... Y ya que menciono la ilusión, así puedo definir mi experiencia con estos maquillajes para embarazadas... No hay palabras que describan la sensación tan linda de ir maquillando un lienzo que en su interior late un pequeño corazoncito y en algunos casos sentir una que otra pequeña patadita... ¡No hay palabras!..."
+    },
+    {
+      "type": "param",
+      "content": "¡Ahora sí, hablemos de qué consiste el Belly Painting!... Es maquillar la barriguita de la mamá embarazada, son palabras inglesas que significa en español vientre pintado. Se que muchas mamis se preguntan: '¿Puede afectarle algo al bebé?'... La respuesta es NO!... Como profesional les puedo decir que no hay ningún peligro para el bebé, siempre y cuando se use maquillaje especial para body painting, preferiblemente anti alérgico o natural que se pueda eliminar fácilmente con agua. Sin embargo, antes de empezar este tipo de trabajo es importante que se informe al profesional si tienes algún tipo de alergia por muy pequeña o insignificante que te pueda parecer."
+    },
+    {
+      "type": "param",
+      "content": "Esta actividad puede ser muy relajante para ambos, porque el uso de los pinceles y esponjas que se usan para el maquillaje, al pasarlos por la barriguita es como dar unos pequeños masajes agradables que también se transmite al bebé y mucho más si van acompañados de musicoterapia y cromoterapia que es como lo realizamos en Beauty Touch, por supuesto no debemos olvidar la comodidad de la mami durante el proceso del maquillaje para evitar molestias que puedan estresar al bebé."
+    }
   ]
 },{
   "_id": {
     "$oid": "645a4c0afe6be252397b737b"
   },
-  "title": "Maquillaje: Fiesta, Madrina, Invitada, etc",
+  "title": "Maquillaje Social",
   "description": "",
   "tag": "Integral",
   "body": [
     {
       "type": "param",
-      "content": "Incluye"
+      "content": "Cuando hablamos de maquillaje, generalmente lo relacionamos con un evento social, como una boda, bautizo, graduación, etc., pero lo cierto es que el maquillaje cada vez tiene más importancia en muchas ocasiones del día a día, no siempre hay que asistir a un gran evento social para ir maquillada."
+    },
+    {
+      "type": "param",
+      "content": "Asistir a una entrevista de trabajo, una cita personal, una quedada entre amigos, una sesión de fotos, etc., son muchas las ocasiones que nos gustaría ir maquilladas, pero no siempre se tiene los conocimientos o se dispone de todo el maquillaje que nos gustaría tener, sin olvidar el factor económico, el gasto que esto puede suponer."
+    },
+    {
+      "type": "param",
+      "content": "IncluyeEn Beauty Touch sabemos la importancia que esto tiene para ti, así que puedes escoger entre las diferentes propuestas de maquillaje para cualquier ocasión y lo mejor es que están a tu alcance!!!…"
+    },
+    {
+      "type": "param",
+      "content": "Tipos de maquillajes:"
     },
     {
       "type": "list",
       "content": [
-        "Higiene facial",
-        "Maquillaje",
-        "Ampolla efecto lifting/ Hidratante/ vitamina"
+        "Maquillaje exprés",
+        "Maquillaje clásico",
+        "Maquillaje para evento (día/ noche)",
+        "Maquillaje de fantasía",
+        "Maquillaje especial boda",
+        "Otros"
       ]
     },
     {
       "type": "param",
-      "content": "Extras adicionales al maquillaje:"
-    },
-    {
-      "type": "list",
-      "content": [
-        "Tratamiento Hidrante e iluminador",
-        "Prueba previa de maquillaje",
-        "Traslado: dependiendo la distancia"
-      ]
+      "content": "Notas: Las pestañas postizas son complementos adicionales al maquillaje."
     }
   ]
 },{
@@ -573,6 +616,80 @@
     {
       "type": "param",
       "content": "Duración: 60 minutos"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "646b841d2f33f4739ef64faf"
+  },
+  "title": "Micropigmentación / Microblading",
+  "tag": "EAvanzada",
+  "description": "",
+  "body": [
+    {
+      "type": "param",
+      "content": "¿Qué es?... También conocido como \"Maquillaje semipermanente\". Se usa no sólo como maquillaje de embellecimiento, sino también para realizar algunas correcciones o conseguir un efecto lifting. Se puede aplicar con diferentes técnicas para conseguir unas cejas más realistas, entre las técnicas más comunes están:"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Pelo a Pelo",
+        "Efecto 3D",
+        "Shading",
+        "Efecto polvo",
+        "Efecto polvo de Hada"
+      ]
+    },
+    {
+      "type": "param",
+      "content": "La técnica es elegida por el profesional, que se selecciona tras un diagnóstico donde se valora cuál es la más indicada según el tipo de piel, el diseño deseado y otros factores que afecten los resultados finales:"
+    },
+    {
+      "type": "param",
+      "content": "El tratamiento incluye:"
+    },
+    {
+      "type": "title",
+      "content": "Primera Consulta"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Asesoría previa y estudio de la piel y morfología",
+        "Visagismo",
+        "Prueba de alergia",
+        "Primera aplicación con la técnica definida"
+      ]
+    },
+    {
+      "type": "param",
+      "content": "Duración: 2 horas y media"
+    },
+    {
+      "type": "title",
+      "content": "Segunda consulta"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Aplicación y retoque"
+      ]
+    },
+    {
+      "type": "param",
+      "content": "Duración: 2 horas"
+    },
+    {
+      "type": "title",
+      "content": "NOTAS:"
+    },
+    {
+      "type": "list",
+      "content": [
+        "En caso de alergia a alguno de los productos necesarios para la aplicación de la técnica solo se abonará el importe de la prueba de alergia.",
+        "En caso de no asistir al retoque dentro del plazo máximo de 45 días naturales, se tendrá que abonar el importe de la sesión o retoque posterior a esa fecha.",
+        "En el caso de reparación de cejas (que tenga un diseño anterior) tiene un coste adicional que dependerá de lo que haya que corregir."
+      ]
     }
   ]
 }]
