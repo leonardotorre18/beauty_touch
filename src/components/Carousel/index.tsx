@@ -13,7 +13,7 @@ import "react-multi-carousel/lib/styles.css";
 
 export default function index(
   {children}
-  : {children: React.ReactNode})
+  : {children?: React.ReactNode } )
 {
 
   return (
